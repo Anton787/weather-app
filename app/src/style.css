@@ -1,0 +1,139 @@
+body{
+  background-image: url('../public/18431.webp');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.current-wrapper{
+  color: white;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 25px 50px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5{
+  font-size: 14px;
+}
+
+.current-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 0px 50px;
+}
+
+.current-day__temp{
+  position: relative;
+  font-size: 124px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.current-day__temp > span{
+  position: absolute;
+  top: -20px;
+  font-size: 44px;
+}
+
+.peak-temp{
+  display: flex;
+  gap: 25px;
+  padding: 10px 20px;
+  width: max-content;
+  border-radius: 25px;
+}
+
+.info-block__blue-translucent{
+  background-color: rgba(0, 0, 255, 0.391);
+  border: 1px solid white;
+  backdrop-filter: blur(5px);
+}
+
+.additional-wrapper{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+.detail-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px 50px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px -1px 31px 0px rgba(34, 60, 80, 0.2);
+}
+
+.hourly-forecast{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hourly-forecast__timelapse{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hourly-forecast > h3{
+  font-weight: 500;
+}
+
+.hour{
+  color: rgb(109, 104, 104);
+}
+
+.hourly-info{
+  display: flex;
+  max-width: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hourly-info > h2{
+  font-weight: 700;
+}
+
+.weather-status{
+  background-color: #ffeded;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+.weather-status > img {
+  display: block;
+  width: 30px;
+}
+
+.date-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.date-info{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  box-shadow: 2px 8px 25px 3px rgba(34, 60, 80, 0.2);
+}
+
+.future-peak__temp{
+  display: flex;
+  gap: 10px;
+}
