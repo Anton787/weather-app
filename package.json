@@ -2,6 +2,7 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "app/main.js",
   "scripts": {
     "start": "electron ."
@@ -10,5 +11,8 @@
     "electron": "^35.0.0"
   },
   "author": "Anton787",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
 }
